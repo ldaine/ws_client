@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>WS Client</title>
+  <meta name="description" content="Simple WebSocket Client">
+  <meta name="author" content="Liga Daine">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+	<header>
+		<h1>WS Client</h1>
+	</header>
+	<div>
+        <div id="chatlog">
+        </div>
+		<div>
+			<input id="message" type="text" name="message">
+		</div>
+		<div>
+			<input id="send" type="button" name="send" value="Send">
+		</div>
+	</div>
+    <script src="ws_client.js"></script>
+</body>
+</html>

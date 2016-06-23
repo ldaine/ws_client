@@ -1,0 +1,22 @@
+body {
+	max-width: 600px;
+	margin: auto;
+	padding: auto;
+}
+
+header {
+	color: grey;
+	border-bottom: 1px solid lightgrey;
+}
+
+body div {
+	margin: 10px 0;
+}
+
+body > div {
+	margin: 25px 0;
+}
+
+#chatlog {
+    border: 1px solid lightgrey;
+}
